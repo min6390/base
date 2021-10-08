@@ -1,0 +1,8 @@
+{
+  "signIn": "Đăng nhập",
+  "signUp": "Đăng ký",
+  "connectError": "Đã có lỗi xảy ra!\nOBee không kết nối được với hệ thống!",
+  "messageError": "OBee không kết nối được với hệ thống",
+  "noInternet": "Không có kết nối Internet. Vui lòng kết nối Wifi/4G/3G'"
+
+}

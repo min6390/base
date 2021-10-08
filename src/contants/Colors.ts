@@ -1,0 +1,28 @@
+const Colors = {
+  white: '#FAFAFA',
+  black: '#000000',
+  primary: '#E23B4D',
+  yellow: '#FBBC34',
+  background: 'rgb(242, 242, 242)',
+  main: '#E23B4D',
+  border: '#C4C4C4',
+  blur: '#C4C4C4',
+  text: '#444444',
+  hightLight: '#E5E5E5',
+  blue: '#3F9EFF',
+  transparent: 'rgba(0, 0, 0, 0.5)',
+  green: '#40CB45',
+  silver: '#C4C4C4',
+  placeholder: '#898989',
+  shadow: 'rgba(0, 0, 0, 0.2)',
+  html: '#F7E9D8',
+  translucentPink: '#FFD8DC',
+  oranges: '#FD994A',
+  translucentGreen: 'rgba(83,223,80,0.25)',
+  translucentRed: 'rgba(226, 59, 77, 0.25)',
+  translucentOranges: 'rgba(253, 153, 74, 0.25)',
+  pink: '#FF5BA0',
+  answer: '#F7E9D8',
+};
+
+export default Colors;
