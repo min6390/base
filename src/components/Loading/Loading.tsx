@@ -1,21 +1,17 @@
 import React, {FunctionComponent} from 'react';
 import {
   ActivityIndicator,
-  StyleProp,
   StyleSheet,
-  Text,
-  TextStyle,
   View,
-  ViewStyle,
 } from 'react-native';
 import Colors from '../../contants/Colors';
 interface OwnProps {}
 
 type Props = OwnProps;
-export const Loading: FunctionComponent<Props> = props => {
+export const Loading: FunctionComponent<Props> = () => {
   return (
     <View style={[styles.container, styles.horizontal]}>
-      <ActivityIndicator size="large" />
+      <ActivityIndicator size="large" color={Colors.black} />
     </View>
   );
 };

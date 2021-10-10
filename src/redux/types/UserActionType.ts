@@ -1,0 +1,5 @@
+export enum UserActionType {
+  GET_BY_ID = "GET_BY_ID",
+  POST_USER_MESSAGE = "POST_USER_MESSAGE",
+  CHANGE_LOADING = "CHANGE_LOADING",
+}
